@@ -1,0 +1,39 @@
+html, body {
+    margin:0;
+    padding:0;
+    overflow:hidden
+}
+
+svg {
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background: #131848;
+}
+
+polygon {
+    fill: #FCD847;
+}
+
+polygon:hover {
+    filter: brightness(85%);
+}
+
+line {
+    stroke-width: 2;
+    stroke: #FCD847;
+}
+
+line {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
