@@ -38,3 +38,10 @@ polyline {
     stroke-dashoffset: 0;
   }
 }
+
+@keyframes gleam {
+  100% {
+    fill: #FCD847;
+    opacity: 0.8;
+  }
+}

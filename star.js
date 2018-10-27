@@ -48,9 +48,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
     centers.forEach(function(center, index) {
         var starIndex = index + 1;
             id = 'star' + starIndex,
-            star = document.getElementById(id);
+            star = document.getElementById(id),
+            duration = 1 + Math.random() * 3;
 
         star.setAttribute('points', CalculateStarPoints(center.x, center.y, arms, outerRadius, innerRadius));
+        star.style.animation = duration + "s gleam infinite ease";
     });
 
     var path = document.getElementById('path'),
