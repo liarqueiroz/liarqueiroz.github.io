@@ -21,15 +21,16 @@ polygon:hover {
     filter: brightness(85%);
 }
 
-line {
+polyline {
     stroke-width: 2;
     stroke: #FCD847;
 }
 
-line {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    animation: dash 5s linear infinite;
+polyline {
+    fill: none;
+    stroke-dasharray: 3100;
+    stroke-dashoffset: 3100;
+    animation: dash 7s linear infinite;
 }
 
 @keyframes dash {
