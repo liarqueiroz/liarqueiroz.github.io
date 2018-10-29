@@ -10,7 +10,11 @@ svg {
     left:0;
     height:100%;
     width:100%;
-    background: #131848;
+    background: #000428; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#000428, #004e92); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#000428, #004e92); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#000428, #004e92); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#000428, #004e92); /* Standard syntax */
 }
 
 polygon {
