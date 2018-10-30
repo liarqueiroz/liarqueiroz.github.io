@@ -15,16 +15,20 @@ document.addEventListener("DOMContentLoaded", function(event) {
             star.style.animation = duration + "s gleam infinite ease";
         });
 
-        var path = '';
 
-        constellation.path.forEach(function(pointIndex){
-            path += constellation.starCenters[pointIndex].x + ',' + constellation.starCenters[pointIndex].y + ' ';
+
+        constellation.path.forEach(function(path, index){
+            var pathStr = '',
+                pathIndex = index + 1;
+            path.forEach(function(pointIndex) {
+                pathStr += constellation.starCenters[pointIndex].x + ',' + constellation.starCenters[pointIndex].y + ' ';
+            });
+
+            document.getElementById(constellation.name + '-path-' + pathIndex).setAttribute('points', pathStr);
         });
-
-        document.getElementById(constellation.name + '-path').setAttribute('points', path);
     }
 
-    var leoMinorConstellation = {
+    var leoMinor = {
             name: 'leo-minor',
             starCenters: [
                 {x: 5, y: 1000},
@@ -32,9 +36,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 {x: 250, y: 1470},
                 {x: 140, y: 1370}
             ],
-            path: [0, 1, 2, 3, 1]
+            path: [[0, 1, 2, 3, 1]]
         },
-        leoConstellation = {
+        leo = {
             name: 'leo',
             starCenters: [
                 {x: 630, y: 860},
@@ -47,9 +51,48 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 {x: 1370, y: 1740},
                 {x: 1060, y: 1600}
             ],
-            path: [0, 1, 2, 3, 4, 5, 6, 7, 8, 3]
+            path: [[0, 1, 2, 3, 4, 5, 6, 7, 8, 3]]
+        },
+        cancer = {
+            name: 'cancer',
+            starCenters: [
+                {x: 50, y: 350},
+                {x: 100, y: 550},
+                {x: 300, y: 400},
+                {x: 370, y: 350},
+                {x: 550, y: 50},
+                {x: 650, y: 400}
+            ],
+            path: [
+                [0, 2, 3, 4],
+                [1, 2, 3, 5]
+            ]
+        },
+        sextans = {
+            name: 'sextans',
+            starCenters: [
+                {x: 1500, y: 760},
+                {x: 1650, y: 1000}
+            ],
+            path: [[0, 1]]
+        },
+        hydra = {
+            name: 'hydra',
+            starCenters: [
+                {x:860, y: 130},
+                {x:750, y: 200},
+                {x:820, y: 310},
+                {x:880, y: 325},
+                {x:890, y: 200},
+                {x:920, y: 400}
+            ],
+            path: [[3, 4, 0, 1, 2, 3, 5]]
         };
 
-    createConstellation(leoMinorConstellation);
-    createConstellation(leoConstellation);
+
+    createConstellation(leoMinor);
+    createConstellation(leo);
+    createConstellation(cancer);
+    createConstellation(sextans);
+    createConstellation(hydra);
 });
