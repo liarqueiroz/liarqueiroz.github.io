@@ -1,24 +1,54 @@
-html, body {
-    margin:0;
-    padding:0;
-    overflow:hidden
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p, a, span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header {
+    background: #000428;
+    height: 400px;
+    width: 100%;
+    z-index: 998;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: block;
+    background: #000428;
+    background: -webkit-linear-gradient(#000428, #012c63);
+    background: -o-linear-gradient(#000428, #012c63);
+    background: -moz-linear-gradient(#000428, #012c63);
+    background: linear-gradient(#000428, #012c63);
+}
+
+ul {
+    display: flex;
+}
+
+h1 {
+    color: #fffef0;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Verdana;
+    padding: 15px;
 }
 
 svg {
-    position:fixed;
-    top:0;
-    left:0;
-    height:100%;
-    width:100%;
-    background: #000428; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#000428, #004e92); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#000428, #004e92); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#000428, #004e92); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#000428, #004e92); /* Standard syntax */
+    top: 100px;
+    left: 0;
+    height: 95%;
+    width: 100%;
+    opacity: 0.7;
 }
 
 polygon {
-    fill: #fbedb5;
+    fill: #fffff7;
 }
 
 polygon:hover {
@@ -38,13 +68,34 @@ polyline {
 }
 
 @keyframes dash {
-  to {
-    stroke-dashoffset: 0;
-  }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
 
 @keyframes gleam {
-  100% {
-    opacity: 0.7;
-  }
+    100% {
+        opacity: 0.7;
+    }
+}
+
+.content {
+    margin-top: 500px;
+}
+
+.main-content {
+    max-width: 64rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+.text {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.text-title { 
+    color: #cf0682;
+    padding: 20px 0;
 }
