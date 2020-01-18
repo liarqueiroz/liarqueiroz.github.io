@@ -95,6 +95,7 @@ polyline {
 .text {
     text-align: justify;
     line-height: 1.5em;
+    margin-bottom: 50px;
 }
 
 .text-title { 
@@ -102,6 +103,8 @@ polyline {
     padding: 20px 0;
 }
 
-iframe body {
-    color: #ffffff !important;
+#replybox {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
