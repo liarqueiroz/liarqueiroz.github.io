@@ -8,18 +8,20 @@ h1, h2, h3, p, a, span {
 }
 
 header {
-    background: #000428;
-    height: 400px;
+    height: 370px;
     width: 100%;
     z-index: 998;
     padding-top: 30px;
-    padding-bottom: 10px;
     display: block;
-    background: #000428;
-    background: -webkit-linear-gradient(#000428, #012c63);
-    background: -o-linear-gradient(#000428, #012c63);
-    background: -moz-linear-gradient(#000428, #012c63);
-    background: linear-gradient(#000428, #012c63);
+}
+
+body {
+    background: #070B34;
+    background: -webkit-linear-gradient(#070B34, #141852, #2B2F77, #483475, #6B4984, #855988);
+    background: -o-linear-gradient(#070B34, #141852, #2B2F77, #483475, #6B4984, #855988);
+    background: -moz-linear-gradient(#070B34, #141852, #2B2F77, #483475, #6B4984, #855988);
+    background: linear-gradient(#070B34, #141852, #2B2F77, #483475, #6B4984, #855988);
+    color: #ffffff
 }
 
 ul {
