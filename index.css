@@ -101,3 +101,7 @@ polyline {
     color: #cf0682;
     padding: 20px 0;
 }
+
+iframe body {
+    color: #ffffff !important;
+}
