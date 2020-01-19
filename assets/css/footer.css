@@ -1,0 +1,27 @@
+.footer {
+    max-width: 64rem;
+    color: #ffffff;
+    padding-bottom: 2.5em;
+}
+
+.email {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.social-medias {
+    list-style-type: none;
+    text-align: end;
+    float: right;
+
+}
+
+.social-item {
+    margin-left: 10px;
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+    fill: #ffffff;
+}

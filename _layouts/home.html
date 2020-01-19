@@ -1,0 +1,21 @@
+---
+layout: wrapper
+---
+
+{% include header.html %}
+<main id="content" class="main-content">
+    <ul>
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</main>
+<script>
+    window.replybox = {
+        site: 'qGORENjYMr', 
+    };
+</script>
+<script src="https://cdn.getreplybox.com/js/embed.js"></script>
+{% include footer.html %}
