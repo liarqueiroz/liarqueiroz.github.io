@@ -25,6 +25,9 @@
 - expression: Data Warehouse
   definition: A data warehouse is any system that collates structured data from a wide range of sources within an organization. Data warehouses are used as centralized data repositories for analytical and reporting purposes.
 
+- expression: Enterprise Data Hub (EDH)
+  definition: An enterprise data hub is a big data management model that uses a Hadoop platform as the central data repository.  The goal of an enterprise data hub is to provide an organization with a centralized, unified data source that can quickly provide diverse business users with the information they need to do their jobs.  
+
 - expression: Extract, Load, Transform (ELT)
   definition: In computing, extract, transform, load (ETL) is the general procedure of copying data from one or more sources into a destination system which represents the data differently from the source(s) or in a different context than the source(s). The ETL process became a popular concept in the 1970s and is often used in data warehousing. Data extraction involves extracting data from homogeneous or heterogeneous sources; data transformation processes data by data cleansing and transforming them into a proper storage format/structure for the purposes of querying and analysis; finally, data loading describes the insertion of data into the final target database such as an operational data store, a data mart, data lake or a data warehouse.
 
