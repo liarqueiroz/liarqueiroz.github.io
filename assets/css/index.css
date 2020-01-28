@@ -52,6 +52,10 @@ body {
     display: block;
 }
 
+h3 a {
+    color: #fff;
+}
+
 .glossary-item {
     display: block;
     padding-bottom: 25px;

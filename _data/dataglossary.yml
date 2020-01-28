@@ -1,51 +1,68 @@
 - expression: Data Engineering
+  anchor: data-engeeniring
   definition: Software engineering approach to designing, building, integrating data from various resources, and managing big data.
 
 - expression: Data Governance
+  anchor: data-governance
   definition: Data management concept concerning the capability that enables an organization to ensure that high data quality exists throughout the complete lifecycle of the data. The key focus areas of data governance include availability, usability, consistency, data integrity and data security and includes establishing processes to ensure effective data management throughout the enterprise such as accountability for the adverse effects of poor data quality and ensuring that the data which an enterprise has can be used by the entire organization.
 
 - expression: Data Ingestion
+  anchor: data-ingestion
   definition: Process of obtaining and importing data in a database.
 
 - expression: Data Lake
+  anchor: data-lake
   definition: A data lake is a highly scalable storage system that holds structured and unstructured data in its original form and format. A data lake does not require planning or prior knowledge of the data analysis needed - it assumes that analysis will happen later, on-demand.
 
 - expression: Data Mart
+  anchor: data-mart
   definition: A data mart is a subset of a data warehouse oriented to a specific business line. Data marts contain repositories of summarized data collected for analysis on a specific section or unit within an organization, for example, the sales department.
 
 - expression: Data Mining
+  anchor: data-mining
   definition: Process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems. Data mining is an interdisciplinary subfield of computer science and statistics with an overall goal to extract information (with intelligent methods) from a data set and transform the information into a comprehensible structure for further use.
 
 - expression: Data Quality
+  anchor: data-quality
   definition: Data quality refers to the state of qualitative or quantitative pieces of information. There are many definitions of data quality but data is generally considered high quality if it is "fit for [its] intended uses in operations, decision making and planning". Moreover, data is deemed of high quality if it correctly represents the real-world construct to which it refers.
 
 - expression: Data Science
+  anchor: data-science
   definition: Inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data. Data science is related to data mining and big data.
 
 - expression: Data Warehouse
+  anchor: data-warehouse
   definition: A data warehouse is any system that collates structured data from a wide range of sources within an organization. Data warehouses are used as centralized data repositories for analytical and reporting purposes.
 
 - expression: Enterprise Data Hub (EDH)
+  anchor: edh
   definition: An enterprise data hub is a big data management model that uses a Hadoop platform as the central data repository.  The goal of an enterprise data hub is to provide an organization with a centralized, unified data source that can quickly provide diverse business users with the information they need to do their jobs.  
 
 - expression: Extract, Load, Transform (ELT)
+  anchor: etl
   definition: In computing, extract, transform, load (ETL) is the general procedure of copying data from one or more sources into a destination system which represents the data differently from the source(s) or in a different context than the source(s). The ETL process became a popular concept in the 1970s and is often used in data warehousing. Data extraction involves extracting data from homogeneous or heterogeneous sources; data transformation processes data by data cleansing and transforming them into a proper storage format/structure for the purposes of querying and analysis; finally, data loading describes the insertion of data into the final target database such as an operational data store, a data mart, data lake or a data warehouse.
 
 - expression: Hadoop
+  anchor: hadoop
   definition: The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures.
 
 - expression: HDFS
+  anchor: hdfs
   definition: The Hadoop Distributed File System (HDFS) is a distributed file system designed to run on commodity hardware. It has many similarities with existing distributed file systems. However, the differences from other distributed file systems are significant. HDFS is highly fault-tolerant and is designed to be deployed on low-cost hardware. HDFS provides high throughput access to application data and is suitable for applications that have large data sets. HDFS relaxes a few POSIX requirements to enable streaming access to file system data. HDFS was originally built as infrastructure for the Apache Nutch web search engine project. HDFS is now an Apache Hadoop subproject. The project URL is <a href="https://hadoop.apache.org/hdfs/">https://hadoop.apache.org/hdfs/</a>.   
 
 - expression: Hive
+  anchor: hive
   definition: Apache Hive is a data warehouse system for data summarization and analysis and for querying of large data systems in the open-source Hadoop platform. It converts SQL-like queries into MapReduce jobs for easy execution and processing of extremely large volumes of data.
 
 - expression: MapReduce
+  anchor: mapreduce
   definition: MapReduce is a processing technique and a program model for distributed computing based on java. The MapReduce algorithm contains two important tasks, namely Map and Reduce. Map takes a set of data and converts it into another set of data, where individual elements are broken down into tuples (key/value pairs). Secondly, reduce task, which takes the output from a map as an input and combines those data tuples into a smaller set of tuples. As the sequence of the name MapReduce implies, the reduce task is always performed after the map job.
 
 - expression: Master Data
+  anchor: master-data
   definition: Master data represents the business objects that contain the most valuable, agreed upon information shared across an organization. It gives context to business activities and transactions, answering questions like who, what, when and how as well as expanding the ability to make sense of these activities through categorizations, groupings and hierarchies. 
 
 - expression: Transactional Data
+  anchor: transactional-data
   definition: Transaction data is data describing an event (the change as a result of a transaction) and is usually described with verbs. Transaction data always has a time dimension, a numerical value and refers to one or more objects (i.e. the reference data).
 

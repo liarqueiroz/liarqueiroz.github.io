@@ -9,7 +9,7 @@ layout: wrapper
         <ul>
             {% for item in site.data.dataglossary %}
             <li class="glossary-item">
-                <h3 class="glossary-expression">{{ item.expression }}</h3>
+                <h3 class="glossary-expression"><a name="{{ item.anchor }}">{{ item.expression }}</a></h3>
                 <p>{{ item.definition }}</p>
             </li>
             {% endfor %}
