@@ -4,7 +4,7 @@
 
 layout: home
 menu: blog
-lang: en
+lang: pt-br
 ref: home
-languageName: English
+languageName: Português
 ---
