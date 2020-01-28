@@ -26,3 +26,15 @@
     height: 25px;
     fill: #ffffff;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer .social-medias {
+        float: none;
+        text-align: center;
+        padding-top: 10px;
+    }
+}

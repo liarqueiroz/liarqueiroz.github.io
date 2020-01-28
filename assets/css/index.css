@@ -60,3 +60,9 @@ body {
 .glossary-expression {
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .main-content {
+        padding: 1em 3em;
+    }
+}
