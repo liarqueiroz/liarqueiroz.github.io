@@ -6,10 +6,6 @@
                    href="/">Blog</a>
             </li>
             <li class="menu-item">
-                <a class="menu-link {% if page.menu contains 'resume' %} selected {% endif %}" 
-                   href="/">Curriculum</a>
-            </li>
-            <li class="menu-item">
                 <a class="menu-link {% if page.menu contains 'glossary' %} selected {% endif %}"
                    href="/data-glossary">Data Glossary</a>
             </li>
@@ -19,14 +15,14 @@
             {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
             {% for post in posts %}
               <li class="lang">
-                <a href="{{ post.url }}" class="{{ post.lang }}" lang="{{ post.lang }}">{{ post.languageName }}</a>
+                <a href="{{ post.url }}" class="{{ post.lang }}" lang="{{ post.lang }}">{{ post.lang }}</a>
               </li>
             {% endfor %}
             
             {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
             {% for page in pages %}
               <li class="lang">
-                <a href="{{ page.url }}" class="{{ page.lang }}" lang="{{ page.lang }}">{{ page.languageName }}</a>
+                <a href="{{ page.url }}" class="{{ page.lang }}" lang="{{ page.lang }}">{{ page.lang }}</a>
               </li>
             {% endfor %}
         </ul>
