@@ -1,9 +1,18 @@
 <header>
     <nav>
         <ul class="menu">
-            <li class="menu-item"><a class="menu-link selected" href="/">Blog</a></li>
-            <li class="menu-item"><a class="menu-link" href="/">Curriculum</a></li>
-            <li class="menu-item"><a class="menu-link" href="/data-glossary">Data Glossary</a></li>
+            <li class="menu-item">
+                <a class="menu-link {% if page.layout contains 'home' %} selected{% endif %}" 
+                   href="/">Blog</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link {% if page.layout contains 'resume' %} selected {% endif %}" 
+                   href="/">Curriculum</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link {% if page.layout contains 'glossary' %} selected {% endif %}"
+                   href="/data-glossary">Data Glossary</a>
+            </li>
         </ul>
 
         <ul class="social-medias">
