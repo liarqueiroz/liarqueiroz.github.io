@@ -4,9 +4,14 @@
     padding-bottom: 2.5em;
 }
 
-.email {
+.rights {
     display: inline-block;
     font-weight: bold;
+    color: #fff;
+}
+
+.rights a {
+    color: #fff;
 }
 
 .social-medias {
