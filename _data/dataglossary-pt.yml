@@ -1,0 +1,87 @@
+expressions:
+  - expression: Data Engineering (Engenharia de dados)
+    anchor: data-engeeniring
+    definition: Abordagem de engenharia de software para o design, construção e integração de dados de várias fontes e gerenciamento de big data.
+
+  - expression: Data Governance (Governância de dados)
+    anchor: data-governance
+    definition: Conceito de gerenciamento de dados que se preocupa em garatir uma alta qualidade dos dados de uma organização em todo o ciclo de vida dos dados. Os focos das áreas de governância de dados incluem disponibilidade, usabilidade, consistência, integridade e seguança dos dados e estabelece processos para garantir um gerenciamento de dados eficiente por toda a empresa.
+
+  - expression: Data Ingestion
+    anchor: data-ingestion
+    definition: Processo de obtenção e importação de dados em um banco de dados.
+
+  - expression: Data Lake
+    anchor: data-lake
+    definition: Um Data Lake é um sistema de armazenamento altamente escalável que pode manter tanto dados estruturados quanto não estruturados. Não é necessário nenhum planejamento ou conhecimento prévio da análise de dados necessária - é assumido que a análise acontecerá em momento posterior, sob demanda.
+
+  - expression: Data Mart
+    anchor: data-mart
+    definition: Um data mart é um subconjunto de um data warehouse orientado a um negócio específico. Eles contem repositórios de dados sumarizados para análise de uma sessão específica de uma organização, como por exemplo, o departamento de vendas.
+
+  - expression: Data Mining (Mineração de dados)
+    anchor: data-mining
+    definition: Processo de descobrimento de padrões em grandes conjuntos de dados envolvendo métodos de aprendizagem de máquina, estatística, e grandes sistemas de bancos de dados. A mineração de dados é um campo interdisciplinar da ciência da computação e estatística com a meta de extrair a informação (com métodos inteligentes) de um conjunto de dados e transformá-la em uma estrutura compreensiva para ser usada no futuro.
+
+  - expression: Data Quality
+    anchor: data-quality
+    definition: Data quality refere-se ao estado qualitativo e quantitativo da informção. Dados são considerados de alta qualidade quando eles são adequados para o uso pretendido em operações, tomadas de decisão e planejamento. Além disso, dados tem alta qualidade se eles represetam uma amostra do mundo real.
+
+  - expression: Data Science
+    anchor: data-science
+    definition: Campo interdisciplinar que usa métodos científicos, processos e algorítimos para extrair conhecimento de dados estruturados e não-estruturados. A ciência de dados está relacionada com mineração de dados e big data.
+
+  - expression: Data Warehouse
+    anchor: data-warehouse
+    definition: Um data warehouse é qualquer sistema que coleta dados estruturados de uma ampla variedade de fontes dentro de uma organização. Os data warehouses são usados ​​como repositórios de dados centralizados para fins analíticos e de relatório.
+
+  - expression: Enterprise Data Hub (EDH)
+    anchor: edh
+    definition: Um EDH é um modelo de gerenciamento de big data que usa uma plataforma Hadoop como repositório central de dados. O objetivo de um EDH é fornecer a uma organização uma fonte de dados centralizada e unificada que possa fornecer rapidamente a diversos usuários de negócios as informações necessárias para realizar seus trabalhos.
+
+  - expression: Extract, Load, Transform (ELT)
+    anchor: etl
+    definition: Na computação, extrair, transformar, carregar (ETL) é o procedimento geral de copiar dados de uma ou mais fontes para um sistema de destino que representa os dados de forma diferente da (s) fonte (s) ou em um contexto diferente da (s) fonte (s). O processo ETL se tornou um conceito popular na década de 1970 e é frequentemente usado em data warehousing. A extração de dados envolve a extração de dados de fontes homogêneas ou heterogêneas; a transformação de dados processa os dados limpando e transformando-os em um formato / estrutura de armazenamento adequado para fins de consulta e análise; finalmente, o carregamento de dados descreve a inserção de dados no banco de dados de destino final, como um armazenamento de dados operacional, um data mart, data lake ou data warehouse.
+
+  - expression: Hadoop
+    anchor: hadoop
+    definition: A biblioteca Apache Hadoop é uma estrutura que permite o processamento distribuído de grandes conjuntos de dados entre clusters de computadores usando modelos de programação simples. Ele foi projetado para expandir de servidores únicos para milhares de máquinas, cada uma oferecendo computação e armazenamento local. Em vez de confiar no hardware para oferecer alta disponibilidade, a própria biblioteca foi projetada para detectar e lidar com falhas na camada de aplicativos, oferecendo um serviço altamente disponível em um cluster de computadores, cada um dos quais pode estar sujeito a falhas.
+
+  - expression: HDFS
+    anchor: hdfs
+    definition: O Hadoop Distributed File System (HDFS) é um sistema de arquivos distribuído projetado para executar em hardware comum. Tem muitas semelhanças com os sistemas de arquivos distribuídos existentes, no entanto, as diferenças de outros sistemas de arquivos distribuídos são significativas. O HDFS é altamente tolerante a falhas e foi projetado para ser implantado em hardware de baixo custo. O HDFS fornece acesso de alta taxa de transferência aos dados do aplicativo e é adequado para aplicativos que possuem grandes conjuntos de dados. O HDFS relaxa alguns requisitos do POSIX para permitir o acesso de streaming aos dados do sistema de arquivos. O HDFS foi originalmente construído como infraestrutura para o projeto do mecanismo de pesquisa na web Apache Nutch. Agora o HDFS é um subprojeto do Apache Hadoop. A URL do projeto é <a href="https://hadoop.apache.org/hdfs/">https://hadoop.apache.org/hdfs/</a>.   
+
+  - expression: Hive
+    anchor: hive
+    definition: O Apache Hive é um sistema de armazenamento de dados para resumo e análise de dados e para consulta de grandes sistemas de dados na plataforma Hadoop. Ele converte consultas do tipo SQL em tarefas do MapReduce para facilitar a execução e o processamento de volumes extremamente grandes de dados.
+
+  - expression: MapReduce
+    anchor: mapreduce
+    definition: O MapReduce é uma técnica de processamento e um modelo de programação para computação distribuída baseada em java. O algoritmo MapReduce contém duas tarefas importantes, mapear e reduzir. O mapear pega um conjunto de dados e o converte em outro conjunto de dados, no qual elementos individuais são divididos em tuplas (pares de chave / valor). Depois, o reduzir, que utiliza a saída de um mapa como entrada e combina essas tuplas de dados em um conjunto menor de tuplas. Como a sequência do nome MapReduce implica, a tarefa de reduzir é sempre executada após a tarefa de mapear.
+
+  - expression: Master Data
+    anchor: master-data
+    definition: Os dados mestre representam os objetos de negócios que contêm as informações mais valiosas e acordadas compartilhadas em uma organização. Ele fornece contexto para atividades e transações comerciais, respondendo a perguntas como quem, o que, quando e como, além de expandir a capacidade de entender essas atividades por meio de categorizações, agrupamentos e hierarquias.
+
+  - expression: Transactional Data
+    anchor: transactional-data
+    definition: Dados transacionais são dados que descrevem um evento (a alteração como resultado de uma transação) e geralmente são descritos com verbos. Os dados transacionais sempre têm uma dimensão de tempo, um valor numérico e se referem a um ou mais objetos (isto é, os dados mestre).
+
+references:
+  - text: https://panoply.io/data-warehouse-guide
+    link: https://panoply.io/data-warehouse-guide
+  
+  - text: https://cognitiveclass.ai/blog/data-scientist-vs-data-engineer
+    link: https://cognitiveclass.ai/blog/data-scientist-vs-data-engineer
+
+  - text: https://www.wikipedia.org
+    link: https://www.wikipedia.org/
+
+  - text: https://hadoop.apache.org
+    link: https://hadoop.apache.org/
+
+  - text: https://www.tutorialspoint.com/hadoop/index.htm
+    link: https://www.tutorialspoint.com/hadoop/index.htm
+  
+  - text: https://searchcio.techtarget.com
+    link: https://searchcio.techtarget.com/
